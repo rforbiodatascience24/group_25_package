@@ -24,9 +24,8 @@ Author:
            role = "aut",
            email = "joaoprazeres2003@gmail.com")       
            )
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: The package maintainer <s204697@student.dtu.dk>
+Description: This package can be used to replicate central dogma.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
