@@ -18,7 +18,12 @@ Author:
     person(given = "Will",
            family = "Gunns",
            role = "aut",
-           email = "williamdagunns@gmail.com"))
+           email = "williamdagunns@gmail.com"),
+    person(given = "João",
+           family = "Prazeres",
+           role = "aut",
+           email = "joaoprazeres2003@gmail.com")       
+           )
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
@@ -28,3 +33,15 @@ LazyData: true
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
+<<<<<<< HEAD
+Imports: 
+    ggplot2 (>= 3.4.3),
+    stringr (>= 1.5.0)
+=======
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+>>>>>>> 7a29727cc0133137778d2402e64944256dd29d0b
