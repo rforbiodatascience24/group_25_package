@@ -24,21 +24,28 @@ Author:
            role = "aut",
            email = "joaoprazeres2003@gmail.com")       
            )
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: The package maintainer <s204697@student.dtu.dk>
+Description: This package can be used to replicate central dogma.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
-Suggests: 
-    knitr,
-    rmarkdown,
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
-VignetteBuilder: knitr
 Imports: 
     ggplot2 (>= 3.4.3),
     stringr (>= 1.5.0)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+<<<<<<< HEAD
+Imports: 
+    ggplot2 (>= 3.4.3),
+    stringr (>= 1.5.0)
+=======
+
+>>>>>>> 6dcb39ff77943ea2f1ae4fab4e82b2cb46b20bff
