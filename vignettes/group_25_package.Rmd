@@ -22,6 +22,11 @@ library(CD25)
 ## Function 1
 
 ## Function 2
+dna_to_rna function takes an DNA sequence as an input and returns an RNA sequence.
+
+# # Example usage
+#' rna_to_dna("ATGCGATAGCTA")
+#' # Expected output: ("AUGCGAUAGCUA")
 
 ## Function 3
 
