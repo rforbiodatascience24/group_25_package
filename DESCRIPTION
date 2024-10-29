@@ -18,7 +18,12 @@ Author:
     person(given = "Will",
            family = "Gunns",
            role = "aut",
-           email = "williamdagunns@gmail.com"))
+           email = "williamdagunns@gmail.com"),
+    person(given = "João",
+           family = "Prazeres",
+           role = "aut",
+           email = "joaoprazeres2003@gmail.com")       
+           )
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
