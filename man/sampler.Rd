@@ -2,7 +2,7 @@
 % Please edit documentation in R/initial_name_sampling.R
 \name{sampler}
 \alias{sampler}
-\title{Initial Name Sampling}
+\title{DNA Sampling}
 \usage{
 sampler(size)
 }
@@ -13,7 +13,7 @@ sampler(size)
 returns sample of specified length from the inbuilt sample c("A", "T", "G", "C")
 }
 \description{
-Initial Name Sampling
+DNA Sampling
 }
 \examples{
 #' # Generate a sample of length 5
