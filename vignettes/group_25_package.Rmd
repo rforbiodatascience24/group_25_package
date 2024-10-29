@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 library(CD25)
 ```
 
+<<<<<<< HEAD
 ## Function 1
 
 ## Function 2
@@ -29,3 +30,10 @@ This function extracts codons (triplets of characters) from a given DNA or RNA s
 ## Function 4
 
 ## Function 5
+=======
+# Function 2
+
+dna_to_rna function takes an DNA sequence as an input and returns an RNA sequence.
+
+# Function 1
+
