@@ -5,6 +5,20 @@ export(sampler)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+export(Nucleotide_Counts)
+importFrom(ggplot2,aes)
+importFrom(ggplot2,geom_col)
+importFrom(ggplot2,ggplot)
+importFrom(ggplot2,theme)
+importFrom(ggplot2,theme_bw)
+importFrom(stringr,boundary)
+importFrom(stringr,str_count)
+importFrom(stringr,str_split)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7a29727cc0133137778d2402e64944256dd29d0b
+<<<<<<< HEAD
 export(translate_codons)
 =======
 export(dna_to_rna)
@@ -12,4 +26,11 @@ export(dna_to_rna)
 =======
 export(extract_codons)
 >>>>>>> 4b1b11845af6c9f37bd82075b08425ade464ab90
+<<<<<<< HEAD
 >>>>>>> 5bad73ea3baaabce0e035789a793e2596335faba
+=======
+<<<<<<< HEAD
+>>>>>>> 7a29727cc0133137778d2402e64944256dd29d0b
+=======
+>>>>>>> 7a29727cc0133137778d2402e64944256dd29d0b
+>>>>>>> ef2700a9cde49d857da78333530a0edb1691c092

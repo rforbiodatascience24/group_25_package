@@ -18,9 +18,42 @@ knitr::opts_chunk$set(
 library(CD25)
 ```
 
+<<<<<<< HEAD
+## Function 1
+
+## Function 2
+dna_to_rna function takes an DNA sequence as an input and returns an RNA sequence.
+
+# # Example usage
+#' rna_to_dna("ATGCGATAGCTA")
+#' # Expected output: ("AUGCGAUAGCUA")
+
+## Function 3
+
+This function extracts codons (triplets of characters) from a given DNA or RNA sequence, starting from a specified position.
+
+Example usage of the function: 
+#' # Example usage
+#' extract_codons("ATGCGATAGCTA", start = 1)
+#' # Expected output: c("ATG", "CGA", "TAG")
+#'
+#' extract_codons("ATGCGATAGCTA", start = 2)
+#' # Expected output: c("TGC", "GAT", "AGC")
+
+## Function 4
+
+Functions that translate codons to aminoacids to create an aminoacid sequence. 
+Input: A character vector of codons (e.g., c("AUG", "UUU", "GGC")).
+Output: A string representing the translated protein sequence.
+Examples:
+translate_codons(c("AUG", "UUU", "GGC")) --> "MFG"
+translate_codons(c("UUU", "UCU", "UAU")) --> "FSY"
+
+## Function 5
+=======
 # Function 2
 
 dna_to_rna function takes an DNA sequence as an input and returns an RNA sequence.
 
 # Function 1
->>>>>>> b38880e1611f65c06a136032d145056def1c0aee
+
