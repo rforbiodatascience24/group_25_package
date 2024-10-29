@@ -1,4 +1,4 @@
-#' Initial Name Sampling
+#' DNA Sampling
 #'
 #' @param size length of the desired output
 #'
@@ -11,6 +11,7 @@
 #'
 #' # Generate a sample of length 10
 #' sampler(10)
+
 sampler <- function(size){
   disjoint_sample <- sample(c("A", "T", "G", "C"), size = size, replace = TRUE)
   joint_sample <- paste0(disjoint_sample, collapse = "")
