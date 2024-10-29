@@ -30,6 +30,11 @@ This function extracts codons (triplets of characters) from a given DNA or RNA s
 ## Function 4
 
 Functions that translate codons to aminoacids to create an aminoacid sequence. 
+Input: A character vector of codons (e.g., c("AUG", "UUU", "GGC")).
+Output: A string representing the translated protein sequence.
+Examples:
+translate_codons(c("AUG", "UUU", "GGC")) --> "MFG"
+translate_codons(c("UUU", "UCU", "UAU")) --> "FSY"
 
 ## Function 5
 =======
