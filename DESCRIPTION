@@ -1,0 +1,27 @@
+Package: CD25
+Type: Package
+Title: Replicate the central dogma of molecular biology
+Version: 0.1.0
+Author: 
+  c(person(given = "Ana",
+           family = "lastname",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "your@email.com"), 
+    person(given = "firstname",
+           family = "lastname",
+           role = "aut",
+           email = "your@email.com"),
+    person(given = "firstname",
+           family = "lastname",
+           role = "aut",
+           email = "your@email.com"),
+    person(given = "firstname",
+           family = "lastname",
+           role = "aut",
+           email = "your@email.com"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
