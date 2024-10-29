@@ -1,0 +1,26 @@
+---
+title: "group_25_package"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{group_25_package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(CD25)
+```
+
+# Function 2
+
+dna_to_rna function takes an DNA sequence as an input and returns an RNA sequence.
+
+# Function 1
+>>>>>>> b38880e1611f65c06a136032d145056def1c0aee
