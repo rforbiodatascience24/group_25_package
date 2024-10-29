@@ -18,9 +18,14 @@ knitr::opts_chunk$set(
 library(CD25)
 ```
 
+# Function 1
+
 # Function 2
 
 dna_to_rna function takes an DNA sequence as an input and returns an RNA sequence.
 
-# Function 1
->>>>>>> b38880e1611f65c06a136032d145056def1c0aee
+# Function 3
+
+# Function 4
+
+# Function 5
