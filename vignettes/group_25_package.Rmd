@@ -33,6 +33,10 @@ This function generates a DNA sample of wanted length.
 
 Example usage:
 
+```{r}
+initial_name_sampling(10)
+```
+
 sampler(10)
 
 Expected output: ('AGCTAGTCAG')
@@ -42,7 +46,7 @@ Expected output: ('AGCTAGTCAG')
 dna_to_rna function takes an DNA sequence as an input and returns an RNA sequence.
 
 ```{r}
-dna_to_rna('AA')
+dna_to_rna('AAGGTTCCTT')
 ```
 
 Example usage:

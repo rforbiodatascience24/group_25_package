@@ -13,6 +13,6 @@
 #' sampler(10)
 sampler <- function(size){
   disjoint_sample <- sample(c("A", "T", "G", "C"), size = size, replace = TRUE)
-  joint_sample <- paste0(name_me3, collapse = "")
+  joint_sample <- paste0(disjoint_sample, collapse = "")
   return(joint_sample)
 }
