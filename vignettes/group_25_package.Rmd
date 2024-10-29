@@ -34,7 +34,7 @@ This function generates a DNA sample of wanted length.
 Example usage:
 
 ```{r}
-sampler(10)
+sampler(5)
 ```
 
 ## Function 2: dna_to_rna

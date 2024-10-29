@@ -42,6 +42,3 @@ Config/testthat/edition: 3
     rmarkdown,
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
-Imports: 
-    ggplot2 (>= 3.4.3),
-    stringr (>= 1.5.0)
