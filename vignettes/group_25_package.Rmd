@@ -29,6 +29,8 @@ This function extracts codons (triplets of characters) from a given DNA or RNA s
 
 ## Function 4
 
+Functions that translate codons to aminoacids to create an aminoacid sequence. 
+
 ## Function 5
 =======
 # Function 2
