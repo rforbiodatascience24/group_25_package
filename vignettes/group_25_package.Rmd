@@ -1,5 +1,5 @@
 ---
-title: "group_25_package"
+title: "Package CD25"
 output: rmarkdown::pdf_document
 vignette: >
   %\VignetteIndexEntry{group_25_package}
@@ -14,18 +14,17 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
-library('CD25')
-```
+# Introduction
+
+This package CD25 (Central Dogma, written by group 25) can be used to replicate the central dogma of molecular biology: DNA –\> RNA –\> protein. This is done by finding a DNA sample, which is transcribed to RNA, which is then translated to a protein. Translation is done using a codon table.
+
+## Install package
 
 ```{r}
+#| echo: false
 devtools::install_github("rforbiodatascience24/group_25_package")
 library('CD25')
 ```
-
-# Introduction
-
-This package can be used to replicate the central dogma of molecular biology: DNA –\> RNA –\> protein. This is done by finding a DNA sample, which is transcribed to RNA, which is then translated to a protein. Translation is done using a codon table.
 
 ## Function 1: sampler
 
