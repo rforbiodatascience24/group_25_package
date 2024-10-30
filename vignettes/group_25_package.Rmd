@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Authors: group 25
+# Group 25
 
 -   s232119 - Ana Paula Rodríguez Del Moral
 
@@ -33,8 +33,8 @@ This package CD25 (Central Dogma, written by group 25) can be used to replicate 
 ## Install package
 
 ```{r}
-#| results: false
-#| error: false
+#| results: hide
+#| message: false
 devtools::install_github("rforbiodatascience24/group_25_package")
 library('CD25')
 ```
@@ -100,12 +100,6 @@ codons <- extract_codons(rna_sample, 1)
 
 # Translate the codons to find amino acids sequence
 translate_codons(codons)
-```
-
-Create a barplot of nucleotide counts
-
-```{r}
-Nucleotide_Counts(dna_sample)
 ```
 
 # Discussion
