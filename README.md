@@ -3,12 +3,6 @@ Package CD25
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# CD25
-
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of CD25 is to …
 
 ## Installation
 
