@@ -1,5 +1,3 @@
-group_25_package
-================
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -52,7 +50,3 @@ You can also embed plots, for example:
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub and CRAN.
-
-``` r
-library(CD25)
-```

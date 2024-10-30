@@ -14,6 +14,18 @@ knitr::opts_chunk$set(
 )
 ```
 
+# Authors: group 25
+
+-   s232119 - Ana Paula Rodríguez Del Moral
+
+-   s194377 - Jacqueline Printz
+
+-   s204697 - Jenni Kinnunen
+
+-   s243036 - João Prazeres
+
+-   s242051 - William Gunns
+
 # Introduction
 
 This package CD25 (Central Dogma, written by group 25) can be used to replicate the central dogma of molecular biology: DNA –\> RNA –\> protein. This is done by finding a DNA sample, which is transcribed to RNA, which is then translated to a protein. Translation is done using a codon table.
@@ -21,7 +33,8 @@ This package CD25 (Central Dogma, written by group 25) can be used to replicate 
 ## Install package
 
 ```{r}
-#| echo: false
+#| results: false
+#| error: false
 devtools::install_github("rforbiodatascience24/group_25_package")
 library('CD25')
 ```
@@ -38,7 +51,7 @@ sampler(5)
 
 ## Function 2: dna_to_rna
 
-dna_to_rna function takes an DNA sequence as an input and returns an RNA sequence.
+dna_to_rna function takes an DNA sequence as an input and returns it transcribed to RNA sequence.
 
 ```{r}
 dna_to_rna('AAGGTTCCTT')
