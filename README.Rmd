@@ -17,7 +17,6 @@ knitr::opts_chunk$set(
 ```
 
 # CD25
-
 # Group 25
 
 -   s232119 - Ana Paula Rodríguez Del Moral
